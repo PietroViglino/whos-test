@@ -1,0 +1,3166 @@
+{
+    "id": "observation collection",
+    "member": [
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2019-01-15T14:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "C7C558E32086EAC8995140FB9E7FB9652D5CEB64"
+            },
+            "id": "051E8C3DDB0A7C2317B2FF8923FBA3FFA2375C63",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2023-10-01T04:49:17Z"
+            },
+            "featureOfInterest": {
+                "href": "B6D2CE2AD12CCAC95E88AE9ADB0DC2D296275853"
+            },
+            "id": "093B445071212D8A01972B9273BF5B4E348D69EE",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2006-09-26T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "B0532D77922E6D8C1010C4612B8833109F8EF74F"
+            },
+            "id": "0B2CDCF6AA2334BDEEBE2C2960D83208AA021D83",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "grados",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Wind direction"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/67",
+                "title": "Wind direction"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2023-02-07T23:01:00Z"
+            },
+            "featureOfInterest": {
+                "href": "E3842BBAE78E267E251112C9C327A59B50A26FEF"
+            },
+            "id": "0E8B5ACDF9FA6ACFEF1F10F9793CE290E62B3988",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2007-12-14T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "09FCAD5F9B2FE856F73EAA1D046CA354BD30F510"
+            },
+            "id": "11877659B8A7E462D2F41E098BE9FEEEECFF34F1",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo umido"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/134",
+                "title": "Wet bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1929-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "C0A4341868DE36549A07A0861FBEE8D4E03C2E22"
+            },
+            "id": "1246066DF34F2A729552A7528BAF14E7DEAC069F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, rajada"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/35",
+                "title": "Wind gust"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2016-11-19T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "BB8D54C9031799A215CE4F88DAF460AC424B0539"
+            },
+            "id": "131037C9FFA04D764359F890E3F539E0C421D4FB",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "1981-01-31T00:00:00Z",
+                "begin": "1968-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "EBD4B6CDCBD83494CC75F94B4B77C36C52E8551A"
+            },
+            "id": "14FE70BCEBF01020B06001E151C1AE141918E13D",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2022-06-01T00:00:00Z",
+                "begin": "1961-09-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "BECB75216C8C5DEC84B72B8CA4FF6520F543C3B9"
+            },
+            "id": "155DCA0F6BF5F42267C6AD4A1C8D213E5E9A623F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "D257C24EC5C139C7206AAE096A757C9F43BB56F0"
+            },
+            "id": "15E6EA4CE83805037610EE5D8D621047F442F154",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, rajada"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/35",
+                "title": "Wind gust"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2016-07-30T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "2B8D74CD18FD31C65721FDB0113A4C25C72E2ED6"
+            },
+            "id": "165908F8F3D4F123D089D4A0496C1A17100E5C64",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "0F8625A6C5F8264AD58F26D502021FD677224547"
+            },
+            "id": "16DA4578235AE112168D4EC72AD34818A2F08185",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mil\u00edmetros"
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Precipitation"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2023-10-24T15:00:00Z",
+                "begin": "2023-08-27T07:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "42A4BE1DA064F18D99BA8BA760DC059C57387F6A"
+            },
+            "id": "1853D77030E9D16A907D794578C0CA8DD85E9A58",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "1989-01-01T00:00:00Z",
+                "begin": "1909-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "3D5D2AED10E00A1C65D998FE41BA2648EAAC234A"
+            },
+            "id": "1B08E06ACDA1C15BA8C232B9C0C9CDC3CCF21FCD",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel do mar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55b",
+                "title": "Pressure reduced to mean sea level"
+            },
+            "phenomenonTime": {
+                "end": "2016-06-01T00:00:00Z",
+                "begin": "1976-04-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "4C84B99074D19970842A14E3BE19B98B78515455"
+            },
+            "id": "1E86F8ED7C48593FB459448A7A8DA6EA21AEE65E",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "9BDE3CE04F0641B52BBE99CDEA8B705D5D665E05"
+            },
+            "id": "1F4069BB89962EE1310C53D5C2E14BCFB8652904",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Cubic metre per second"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "5C34E7D199E2643B1AA949D920942C576A406AB4",
+                "title": "Vazao"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-05-07T10:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "384ED4037A83B74C9F4518BF0E6283C94EF61D9D"
+            },
+            "id": "2E230426D3F945FA4050B20DCF6C1FE5690DF16B",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "%",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "umidade relativa do ar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/133",
+                "title": "Relative humidity"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "1975-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "2BDDBA86363D6E961AF32438A50BC041BF34FEA7"
+            },
+            "id": "2ED7BEF9F4C8DBFEF82E5F0504F2BE32C1B88307",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "1972-11-17T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "D4788978AF61A53B56FB8EABC4D40E95BD16AF52"
+            },
+            "id": "2F67FA1E460F472BE165878EAEC58597879E9743",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2008-04-28T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "40A6A70D2CF269F5FEA98BBE695428DB8B629C2A"
+            },
+            "id": "34E1D7C8C2198D88B2678642FB8C572FEA1A044C",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "codigo",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "66AFF0CD0387C96D632215A9FDC6DB7A233B6A87",
+                "title": "vento, dire\u00e7\u00e3o"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "1921-12-21T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "57CABCC1C8AE1807049340A7CDEF684E431F9A14"
+            },
+            "id": "3507011FF189405EF80C9835421CE0A6BC832F23",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2021-07-25T00:00:00Z",
+                "begin": "1976-08-21T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "C03FB6BADC0139D5C70D6EE00A0E7E98DD1A88A8"
+            },
+            "id": "3603221A9DA15504620BDAA1B2C38A65539C1A6A",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2021-07-25T00:00:00Z",
+                "begin": "1922-11-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "5873CD14FD1DCCBABF4ED980D3583EE125F2AFC1"
+            },
+            "id": "39F705D4AC0FA7AE9277AAA208761CBD40326BD2",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "evaporacao do piche"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/71b",
+                "title": "Evaporation, Piche evaporimeter"
+            },
+            "phenomenonTime": {
+                "end": "2019-08-31T00:00:00Z",
+                "begin": "1911-01-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "F689C27C51D09DF77CCD93E9630DC899A2BB950F"
+            },
+            "id": "3CD3EB9F9BEDB3165F7D0465AB8E1BBD42B5ACB7",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "d\u00e9cimos",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "nebulosidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/27",
+                "title": "Cloud cover"
+            },
+            "phenomenonTime": {
+                "end": "2020-11-01T00:00:00Z",
+                "begin": "1927-12-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "AD0A4924231753E816781C2E188392808878C328"
+            },
+            "id": "3E852B1A887BA84B614AB8E5D9111B280F89A2F3",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "K",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "air temperature"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2022-10-31T21:00:00Z",
+                "begin": "2020-10-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F264B7F7810D41E4808508D9790DDB394B319EA3"
+            },
+            "id": "3F9F070011679B8F6FCE2684F38840C6BD03EC64",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "%",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "umidade relativa do ar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/133",
+                "title": "Relative humidity"
+            },
+            "phenomenonTime": {
+                "end": "2009-09-01T00:00:00Z",
+                "begin": "1912-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "6E028B001F9F3E928B566579E15842170ECB3146"
+            },
+            "id": "42F78972E97728C23AE80A83267C15DAE099B362",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2020-04-06T06:00:00Z",
+                "begin": "2015-12-09T02:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "C332462973E15747344FF24D27B9A7E907D00213"
+            },
+            "id": "47DA3DA8B57348D7DD64606EDFC2B79BF00B2EFA",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ponto de orvalho"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5296",
+                "title": "Temperature, dew point"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2007-04-18T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "61591605994B73C16ADCDC3DAC4467C23B2139A9"
+            },
+            "id": "5070F045A3FE47179A2793988BC85A5C7F39C700",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "7B7541BC45840419D1F19132E03FDA2B1DD5CAEF"
+            },
+            "id": "50A302523F0E249B2EEF5F2C5740EC36F899F97B",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo umido"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/134",
+                "title": "Wet bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2009-12-19T00:00:00Z",
+                "begin": "1908-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "456C55A0B20BFAC9A107915B1BC44B022E4D707F"
+            },
+            "id": "591D4C784075BD20F9BAAFB23406382311C1C45D",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ponto de orvalho"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5296",
+                "title": "Temperature, dew point"
+            },
+            "phenomenonTime": {
+                "end": "2004-05-22T00:00:00Z",
+                "begin": "1914-11-14T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F0FAA7F64D40EBE8027AD5B8ECDC0F0A3748BF3C"
+            },
+            "id": "5BAC283B08D599B35274B1018C48B911B0298760",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2018-03-08T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "48B125AD5A92BEC65476A92AEA70E0D91848E82B"
+            },
+            "id": "5C49467F158C997E362553C76E52AF4E9CCB5466",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2015-07-07T14:45:00Z"
+            },
+            "featureOfInterest": {
+                "href": "ADAF218ED7DD821E725E984A0B09674AF3DA77DF"
+            },
+            "id": "5F57871DAC930D0CA258C7081754BE90449B4636",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mil\u00edmetros",
+                    "aggregationDuration": "PT180M",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/TotalSucc",
+                        "title": "Succeeding total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Precipitation"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2023-02-07T21:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "D85EE62CBE5A996A7D8D01870369974B225D8F9E"
+            },
+            "id": "5F75AEC2FAA030525B1FC76AF99D104755E07DC9",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, rajada"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/35",
+                "title": "Wind gust"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2008-03-04T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "03ED4E1B7E96221888C3AA57B4C49E4DFCF3F18D"
+            },
+            "id": "5F90AD5DC706B6079147889434FE8C6174317305",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ponto de orvalho"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5296",
+                "title": "Temperature, dew point"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2006-12-12T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "85A4344253A2DF8FB6A7BC7B6EFBACE215FA4DFB"
+            },
+            "id": "60A440215D91F6774BC83052059E535B59BD39B2",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo seco"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/135",
+                "title": "Dry bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2007-01-09T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "51D03619A6AD92C560AD85E00355DC2F3F5C5393"
+            },
+            "id": "62039E766079BF00D6F4BE2C4004839DB238A836",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "9D84781C1850FDC3A033BCC93BFACE2C5CB19B83"
+            },
+            "id": "6AED19D036F6A3978D97BB2F03F55F972F00B6EB",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2013-09-09T00:00:00Z",
+                "begin": "1913-11-26T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "8CBF831F1C6B77C2847C1D70B914A86A3274A7E6"
+            },
+            "id": "6B190E1DD990EBD47221B7EA611E124A69AC25B4",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0 (gr)",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "direcao predominante do vento"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/67",
+                "title": "Wind direction"
+            },
+            "phenomenonTime": {
+                "end": "1968-01-01T00:00:00Z",
+                "begin": "1938-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "9BCF90D63CC4D96ECDFD9D0126B65902B5483B03"
+            },
+            "id": "6D14869861FFABC2F7C243897A44D1E7ABCADCF0",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "9B3CBBD2B9E64489BFB856312BB0830B41811126"
+            },
+            "id": "6E66B2BE2FBE754190317B01A3B102DD11452663",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "press\u00e3o atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2007-11-11T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "A1902748E4DF79F7FF86DDDB79503A0E6EDEC7D6"
+            },
+            "id": "70030056B123FEAD013A5028B6D318AEF1DDA5EF",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2008-05-29T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F63399C6CBED268A234BA026306555FB7EF9F275"
+            },
+            "id": "756ED26A2FDC64B75008B5D13394D2B9126B8F86",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2021-07-25T00:00:00Z",
+                "begin": "1910-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "5A935EF37863209A4A34E78E8FEFBA5D8D642FEE"
+            },
+            "id": "767270490CA3ED6B04AADFE49C685E86DC752E20",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "1968-05-01T00:00:00Z",
+                "begin": "1935-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "494F42E819D710C3AA6176E2E3A2AE1DA62A3E66"
+            },
+            "id": "791C6D29E29073EE0206A480B973C542453D772B",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2008-09-05T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "2FC0426897266C6EBFA687AEDDC832CC7DB0AA9C"
+            },
+            "id": "7BD50FE0F88F7D2144DC073A208CFEB9C960AA2F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel do mar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55b",
+                "title": "Pressure reduced to mean sea level"
+            },
+            "phenomenonTime": {
+                "end": "1968-10-30T00:00:00Z",
+                "begin": "1919-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "051D876AF2659E74C5CBFCBED11C6F03AEC697A6"
+            },
+            "id": "7CA1F0AB7583FBA1C4397B1096C62454A81B3601",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "press\u00e3o atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2007-07-11T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "11CC4264CA650102BD10552D2DCB27E4AC2EDA4B"
+            },
+            "id": "7E6F5701550A6AC12F0226716CECB8D357FED1A0",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0 (gr)",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "5B3F95BD5F1F2957ED06C406217ABEB07B58667E",
+                "title": "vento, dire\u00e7\u00e3o"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2008-06-10T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "B0F979C13214BEDCC03176A376EA689B51B423D1"
+            },
+            "id": "81FE572B5EF60723794E142D94984AC488F01081",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "1978-10-01T00:00:00Z",
+                "begin": "1938-11-23T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "3BDE14B4C562EEA63E0F32855DF68452D3A089A9"
+            },
+            "id": "87E46518916D98C6A600719C0ED26CF7F1247527",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "9BBE4C78144E397721CA8C4F0BD332265C5A70F4"
+            },
+            "id": "89935DB9E730775EF4E596F497D4B0810C25A17F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2023-10-01T00:34:48Z"
+            },
+            "featureOfInterest": {
+                "href": "B6520DE5399824381405A17C54DC1BBD7AC0DDEE"
+            },
+            "id": "8C4EACB415C34D259086A1379CB008AA51475EA4",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "metros",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/AverageSucc",
+                        "title": "Average in succeeding interval"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Gage height"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/12",
+                "title": "Gage height, stream"
+            },
+            "phenomenonTime": {
+                "end": "2023-11-01T03:00:00Z",
+                "begin": "1970-01-01T03:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "63A1ADE93C452A399E5A5187A5C15EF7F27D40C4"
+            },
+            "id": "8CB8F762CA007A5C65A6F72BEB2DFCB206B252A7",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "1965-12-31T00:00:00Z",
+                "begin": "1927-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "4909D8F7AF045E894487B4953493EBFFA05381C5"
+            },
+            "id": "8F789F79B783155ECE1FEC4564AFBE0FAE8BFE6E",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "CC46A38BD712C56286C8404D4E5019F44A63ABB4"
+            },
+            "id": "8FE301DE19877771C5C28C1713401D84449B94D0",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "codigo",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "visibilidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5033",
+                "title": "Visibility"
+            },
+            "phenomenonTime": {
+                "end": "1975-01-01T00:00:00Z",
+                "begin": "1970-05-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "AF06F865548275BE109210AD992A4EFC10536B1D"
+            },
+            "id": "9145F783DFF5C0252985CAFAC3F81E9849437872",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mil\u00edmetros"
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Precipitation"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2023-08-27T07:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "99A6CD4E4D094103769E2B5C9BEBAFE1A4A7A3DB"
+            },
+            "id": "934693A2FB2545EF038D22E8A42936328880879F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "V",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "A760D5E4D052B79F08DF23C319CD0D53B1533A29",
+                "title": "tens\u00e3o da bateria da esta\u00e7\u00e3o"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2007-06-22T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "82787A8B0A21B72FBC5CEFA41D7487078B39F5BD"
+            },
+            "id": "965D05280B7B9101D433426CECF2660EE5662CCA",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "1999-01-01T00:00:00Z",
+                "begin": "1975-09-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "39A59E8E6FBD0C7BF0EE48FFF8BDE1E437F78AAF"
+            },
+            "id": "97F630ECDE17CB74E85EA094FF15106C4E88D914",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "1995-03-14T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "03B827480B05D41051CAA6A62AD809A67810CB94"
+            },
+            "id": "98CAA0AA7EBC5A87F02EC6C62711F09C6BB47113",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "E58F494CE2710C62C7C265877BFADEAC672EADA1",
+                "title": "temperatura da cpu da esta\u00e7\u00e3o"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2008-09-28T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "77CB2C1D35E352E9760AA97C08D8410C10E02AF2"
+            },
+            "id": "9ED5BF9CB3FAA0EB030C75D64057F454FCC0F436",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Cubic metre per second"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "5C34E7D199E2643B1AA949D920942C576A406AB4",
+                "title": "Vazao"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2015-02-25T11:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F08054756D8CECB8AAFC802D26700068EF90D6E3"
+            },
+            "id": "A0C7448E1A630D507BB10702511241062E73CC58",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "d\u00e9cimos",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "nebulosidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/27",
+                "title": "Cloud cover"
+            },
+            "phenomenonTime": {
+                "end": "1999-07-01T00:00:00Z",
+                "begin": "1984-11-27T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "80876348AC642587FF67B67E289491428F660069"
+            },
+            "id": "A3FDDB6B4CA032D680F2C351E759C6E7365C8792",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel do mar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55b",
+                "title": "Pressure reduced to mean sea level"
+            },
+            "phenomenonTime": {
+                "end": "1975-01-01T00:00:00Z",
+                "begin": "1970-05-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "AF06F865548275BE109210AD992A4EFC10536B1D"
+            },
+            "id": "A5AA4C3C15712420F0F44A4AFC84F010635AB433",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "0B4340F6AB09FB13DEFC05002D31DA19F78CAAB3"
+            },
+            "id": "AE574704C9219FF9BE0479BF27E248463DDBFAF8",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "%",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "umidade relativa do ar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/133",
+                "title": "Relative humidity"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1962-12-18T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "04893759957FF68E972DA5CC0ACF55F6D225CD74"
+            },
+            "id": "B15F06411E124E38BABB90B7747FEFC37691442F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "d\u00e9cimos",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "nebulosidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/27",
+                "title": "Cloud cover"
+            },
+            "phenomenonTime": {
+                "end": "1968-12-01T00:00:00Z",
+                "begin": "1913-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "64B389355A503BBF18C887DCDD701BD36F6FA48A"
+            },
+            "id": "B1E01E6EAB244801CFCADC1BE327F35648377D7C",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "evaporacao do piche"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/71b",
+                "title": "Evaporation, Piche evaporimeter"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2023-10-01T05:26:33Z"
+            },
+            "featureOfInterest": {
+                "href": "28CD8A1FD50C6D087D30F055679B344BF028C7E8"
+            },
+            "id": "B2F8CC713E0A44C46D4154408B5BEC70E4A33759",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "1965-08-01T00:00:00Z",
+                "begin": "1914-01-12T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "E2C8D5C6A6BA6D26A98FF0EDCD1B77F73533938F"
+            },
+            "id": "B48A5FB45865FEA64DCDC41A2D223C4AE370FDCF",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo seco"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/135",
+                "title": "Dry bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2006-12-18T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "BF0EB70E11DDD07C360FC8906B3A585FFFD60B17"
+            },
+            "id": "BC6C684AE1D154CD1E794DC90C45792CF801AD49",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ponto de orvalho"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5296",
+                "title": "Temperature, dew point"
+            },
+            "phenomenonTime": {
+                "end": "2008-10-02T00:00:00Z",
+                "begin": "1969-06-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "99BB69506FBFA94099B164B005904FE26819779F"
+            },
+            "id": "BF8CCB2DBD6D2D55C3B86D729DA18D3F8C67BD8B",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "A883C6724BA432A0EA182AD32CAB57BAC2FB0D4F"
+            },
+            "id": "C074DC9828EC1DF629B89109EADA6B766A308A63",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2020-10-18T07:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "1AE1ADD8D50FF45FDBCF846697D49A648D886118"
+            },
+            "id": "C1BF47E5BC6AD5A9EBB72CDFE0B64E10590C24C7",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "%",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "umidade relativa do ar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/133",
+                "title": "Relative humidity"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "1971-04-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F1C80FFDFFF924DFC21619C361FC18C833E5482F"
+            },
+            "id": "C1F577C35CFE7F8025C8E9D05FEFA462DAB5BCE5",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "A696A533A05C5C6CD51E4297CE44EA8B7B661CC7"
+            },
+            "id": "C6B28373C61FDC3CE89A4EC8F5A2A95BB5159F0D",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo umido"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/134",
+                "title": "Wet bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2023-10-01T03:48:17Z"
+            },
+            "featureOfInterest": {
+                "href": "E6A70163E81DCBB421C513E00B2BD2C3DD315607"
+            },
+            "id": "C78B8D872874123992065B2EF2E06C422E9AEEAB",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel da estacao"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2009-09-24T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "7BEA798217172402B2FC2B0FAEEA353984E1057D"
+            },
+            "id": "C8488490612DD57C36770E0EE4269D81F005334B",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Cubic metre per second"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "5C34E7D199E2643B1AA949D920942C576A406AB4",
+                "title": "Vazao"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2015-06-26T13:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "160FC40C8BB99427A54C42B7D7A12349CC11BF76"
+            },
+            "id": "CA794F69F4C11B2C54FFD30DE83C956BDD9D3DA6",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2010-04-23T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "BDA8D21F375974C9EE95E06A9FE429FD0CD3FD77"
+            },
+            "id": "CAC24B819DB4D3561362DA7722FC461BBD0BAE0C",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel do mar"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55b",
+                "title": "Pressure reduced to mean sea level"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1918-09-06T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "B29A2CC81D9170170923C66E69B5C876FF38A493"
+            },
+            "id": "CB2E89E6E47E85A910B918FD04AFD3A7EC120779",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura do ar - bulbo umido"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/134",
+                "title": "Wet bulb temperature"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1976-08-28T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "B981B3D0C23CA1C49F00B30175CD4E420419AADE"
+            },
+            "id": "CCA748E46846C5950A4B46752D3C9A87285B3638",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel da estacao"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "1913-12-31T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "9CDA4D7B00CB77CA187D4D9996692D1EAD8B89D7"
+            },
+            "id": "CD9A52CDFC803683E7693907F88F74A6C18FD309",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "B6EAA6C1E904AF8BE33AE035FFB63E1153F458DA"
+            },
+            "id": "D005573044426B6F83C8519C5ECCCFB517B33923",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "1990-12-31T00:00:00Z",
+                "begin": "2023-10-01T01:13:49Z"
+            },
+            "featureOfInterest": {
+                "href": "35E23373CCE2B8FC80CB1F107A6BD036B2B3D90E"
+            },
+            "id": "D54A44E71AED278D3FA696B1A00DBEF10B84D5FD",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "\u00b0C",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "temperatura"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/49",
+                "title": "Temperature, air"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1911-02-17T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "07610AD706DF617D3764AA027E2DD7AF4166F7D6"
+            },
+            "id": "DACCC081726F0AE6B5FDC94DC54959B82D5EEF42",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Maximum"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, rajada"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/35",
+                "title": "Wind gust"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2008-05-29T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "F63399C6CBED268A234BA026306555FB7EF9F275"
+            },
+            "id": "DBF88F37C4C169945D23387E25B97292FBF28711",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "2021-07-25T00:00:00Z",
+                "begin": "1976-11-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "7167D8247876345692AF93D8A7F90D8E5E87B82E"
+            },
+            "id": "DE67334DFE2AF562D89CA19656A5D1EE86A12CFD",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica ao nivel da estacao"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "1993-04-16T00:00:00Z",
+                "begin": "1969-09-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "0DD7D7C187D990CA4D7038E704051F15E086F3B6"
+            },
+            "id": "DEBBC8CA472CBB353B4A4A0C2CE97B3CB0C4A40A",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1M",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "7AF22B2776332E3A9FB08E722210BD402FFC6CFE"
+            },
+            "id": "E0EB410D3A1123E6BC1C1F04916AD8A960F9FC11",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "pressao atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2019-07-18T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "29134D53FC8EF60F0F2E6739DAAE102E58735F4A"
+            },
+            "id": "E3792E929EA76DBF6A3D1B400531E4FBF675FC3F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2015-08-31T01:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "8C4F401C6D8AC6D74E8C3EC83A188EEF93FC9E25"
+            },
+            "id": "E6094FCEB5156892771FA8B619834BC9DE26D047",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "metros",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/AverageSucc",
+                        "title": "Average in succeeding interval"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Gage height"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/12",
+                "title": "Gage height, stream"
+            },
+            "phenomenonTime": {
+                "end": "2021-07-30T03:00:00Z",
+                "begin": "2017-01-01T03:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "C2D6ED5235238A37C556C0BA10514E3D50EC04BF"
+            },
+            "id": "E8164B47025E5838ABB2227F8D6F635AF6AB52B0",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mm",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "precipita\u00e7\u00e3o"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/65",
+                "title": "Precipitation"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2022-01-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "2450C34E09A5DF6F80AD045E9F2398FF41DB124E"
+            },
+            "id": "EB7AAC57CB05C68A7B66469AFA401A096834C03F",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "h",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Total"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "insolacao"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5036",
+                "title": "Sunshine duration"
+            },
+            "phenomenonTime": {
+                "end": "2012-06-01T00:00:00Z",
+                "begin": "1989-06-10T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "0D2B3319BF4B2A74FC6C3AFA26395267CD99104E"
+            },
+            "id": "F272347AA05769AD55FC3FA9F1524B5BFEEA0D6C",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "2015-03-10T15:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "5CA6D0514785D28A1FDC1D97EA1ECA7812D29BCF"
+            },
+            "id": "F39BE7581133A3098DC8D38235717A172C54B1A3",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {
+                    "intendedObservationSpacing": "PT1H"
+                },
+                "defaultPointMetadata": {
+                    "uom": "Centimetre"
+                },
+                "points": []
+            },
+            "parameter": [],
+            "observedProperty": {
+                "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+                "title": "Nivel"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:06Z",
+                "begin": "2018-10-02T17:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "49E171BC7B35BBB0EBC3FAD1E26610F05E1A7162"
+            },
+            "id": "FDCE57DD057D3327A5C5FF241F7E71E880F31534",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "metros",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "Gage height"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/12",
+                "title": "Gage height, stream"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:07Z",
+                "begin": "2023-02-10T23:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "6E4063E41C70AFE4C3FE0D90CF715EF266CA6C64"
+            },
+            "id": "FDD32F67A65831D7D6FC12EC358DB5761A01A0E3",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "codigo",
+                    "interpolationType": {
+                        "href": "http://www.opengis.net/def/waterml/2.0/interpolationType/Continuous",
+                        "title": "Continuous/Instantaneous"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "visibilidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/5033",
+                "title": "Visibility"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-02T16:24:08Z",
+                "begin": "1970-09-01T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "1385696DA3A96C9B75B187352D7037F927A6834A"
+            },
+            "id": "FE56DBA9A6B833242C36E08B66738C3C8B4C5A10",
+            "type": "TimeSeriesObservation"
+        },
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "m/s",
+                    "aggregationDuration": "P1D",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Average"
+                    }
+                },
+                "points": []
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "vento, velocidade"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/33",
+                "title": "Velocity, wind"
+            },
+            "phenomenonTime": {
+                "end": "1954-12-22T00:00:00Z",
+                "begin": "1913-10-21T23:59:56Z"
+            },
+            "featureOfInterest": {
+                "href": "FEAB84212CBDBD2E709F69097E4F2DC91EB5C4DC"
+            },
+            "id": "FE7944D193A208695507E5D6530BFE732CE72051",
+            "type": "TimeSeriesObservation"
+        }
+    ]
+}

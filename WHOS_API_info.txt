@@ -1,0 +1,224 @@
+INFORMAZIONI API WHOS
+
+Modalità di interrogazione API testate:
+
+1. Lista con ID e timestamp ultimo dato
+
+    URL=https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations
+
+    Come risposta si avrà un JSON con un campo 'member' contenente una lista di tutti i membri
+    con le loro informazioni. Esempio di un documento nella lista dei members:
+
+    {
+        "result": {
+            "metadata": {
+                "intendedObservationSpacing": "PT1H"
+            },
+            "defaultPointMetadata": {
+                "uom": "Centimetre"
+            },
+            "points": []
+        },
+        "parameter": [],
+        "observedProperty": {
+            "href": "80B052462E277E0F7D3002CA6C67E481CD953CDC",
+            "title": "Nivel"
+        },
+        "phenomenonTime": {
+            "end": "2024-02-02T16:24:06Z",
+            "begin": "2019-01-15T14:00:00Z"
+        },
+        "featureOfInterest": {
+            "href": "C7C558E32086EAC8995140FB9E7FB9652D5CEB64"
+        },
+        "id": "051E8C3DDB0A7C2317B2FF8923FBA3FFA2375C63",  # questo può essere passato come parametro observationIdentifier per query mirate
+        "type": "TimeSeriesObservation"
+    }
+
+2. Per reperire le informazioni (metadata, begin timestamp, end timestamp, etc...) avendo un ID:
+
+    URL=https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier={observation_identifier}
+
+    L'observationIdentifier è quello presente nella lista ottenuta chiamando l'api all'endpoint /observations
+    La risposta sarà un lista di documenti con l'ID della query. (Possono essere più documenti con lo stesso id ma timestamps differenti)
+    
+3. Dato un ID ed un range di date ottenere i dati:
+
+    URL=https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier{observation_id}&beginPosition={begin_position}&endPosition={end_position}&includeData=true&limit=1
+
+    beginPosition and endPosition devono essere ISO 8601
+    L'observationIdentifier è quello presente nella lista ottenuta chiamando l'api all'endpoint /observations
+    Omettendo beingPosition ed endPosition si otterranno tutti i dati per quell'ID
+
+    Esempio di risultato:
+
+    {
+    "id": "observation collection",
+    "member": [
+        {
+            "result": {
+                "metadata": {},
+                "defaultPointMetadata": {
+                    "uom": "mB",
+                    "aggregationDuration": "PT1H",
+                    "interpolationType": {
+                        "href": "",
+                        "title": "Minimum"
+                    }
+                },
+                "points": [
+                    {
+                        "time": {
+                            "instant": "2024-01-28T19:00:00Z"
+                        },
+                        "value": 961
+                    },
+                    ...
+                    ...
+                    ...
+                    {
+                        "time": {
+                            "instant": "2024-01-30T00:00:00Z"
+                        },
+                        "value": 962.8
+                    }
+                ]
+            },
+            "parameter": [
+                {
+                    "name": "originalObservedProperty",
+                    "value": "press\u00e3o atmosferica"
+                }
+            ],
+            "observedProperty": {
+                "href": "http://hydro.geodab.eu/hydro-ontology/concept/55",
+                "title": "Atmospheric pressure"
+            },
+            "phenomenonTime": {
+                "end": "2024-02-05T13:39:23Z",
+                "begin": "2007-11-11T00:00:00Z"
+            },
+            "featureOfInterest": {
+                "href": "A1902748E4DF79F7FF86DDDB79503A0E6EDEC7D6"
+            },
+            "id": "70030056B123FEAD013A5028B6D318AEF1DDA5EF",
+            "type": "TimeSeriesObservation"
+        }
+    ]
+    }
+
+Note:
+
+-useCache=true non è accettato come parametro nelle query, ritorna errore
+
+-Se non vengono specificati beginPosition e endPosition i dati vengono ritornati in ordine temporale decrescente.
+    Se invece si usano i parametri beginPosition ed endPosition (in quest'ordine) i dati saranno in ordine temporale crescente.
+
+-Quando vengono presi tutti i dati passando un ID e senza specificare beginPosition e endPosition
+    in una chiamata di test sono ritornati alcuni timestamp doppi con valori diversi.
+    Inoltre le ore della giornate non ancora trascorse sono presenti e con valore -9999
+
+    Esempio:
+
+    ...
+    "points": [
+                    {
+                        "time": {
+                            "instant": "2024-02-05T11:00:00Z"  <---- presente con valore diverso
+                        },
+                        "value": 29623
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T10:00:00Z"
+                        },
+                        "value": 29621
+                    },
+                    ...
+                    ...
+                    ...
+                    {
+                        "time": {
+                            "instant": "2024-02-05T10:00:00Z"
+                        },
+                        "value": 963
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T11:00:00Z"  !!!
+                        },
+                        "value": 963.7
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T12:00:00Z"
+                        },
+                        "value": 963.9
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T13:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T14:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T15:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T16:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T17:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T18:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T19:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T20:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T21:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T22:00:00Z"
+                        },
+                        "value": -9999
+                    },
+                    {
+                        "time": {
+                            "instant": "2024-02-05T23:00:00Z"
+                        },
+                        "value": -9999
+                    }
+                ]
