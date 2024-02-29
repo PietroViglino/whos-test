@@ -65,8 +65,8 @@ def get_metadata_with_ob_id(observation_identifier):
         url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier={observation_identifier}'   
         resp = requests.get(url)
         data = json.loads(resp.text)
-        # with open(f'{observation_identifier}_metadata.json', 'w') as f:
-        #     json.dump(data, f)
+        with open(f'{observation_identifier}_metadata.json', 'w') as f:
+            json.dump(data, f)
         members = data['member']
         metadata_for_id = []
         for member in members:
@@ -78,13 +78,35 @@ def get_metadata_with_ob_id(observation_identifier):
     except Exception as e:
         print(str(e))
 
-def get_data_with_id(observation_id):
+# catalogo con begin end # not working
+def get_metadata_with_timerange(begin, end):
     try:
-        url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier{observation_id}&includeData=true&limit=2'   
+        url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?beginPosition={begin}&endPosition={end}'   
         resp = requests.get(url)
         data = json.loads(resp.text)
-        # with open(f'get_data_id_{observation_id}.json', 'w') as f:
-        #     json.dump(data, f)    
+        print(data)
+        with open(f'{begin[:10]}_{end[:10]}_metadata.json', 'w') as f:
+            json.dump(data, f)
+        members = data['member']
+        metadata_for_id = []
+        for member in members:
+            metadata = member['result']['metadata']
+            default_point_metadata = member['result']['defaultPointMetadata']
+            metadata_for_id.append(metadata)
+            metadata_for_id.append(default_point_metadata)
+        print(metadata_for_id)
+        return metadata_for_id
+    except Exception as e:
+        print(str(e))
+
+# with useCache: still not working at 29/02/2024
+def get_data_with_id(observation_id):
+    try:
+        url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier{observation_id}&includeData=true'   
+        resp = requests.get(url)
+        data = json.loads(resp.text)
+        with open(f'get_data_id_{observation_id}.json', 'w') as f:
+            json.dump(data, f)    
         print(data)
         return data
     except Exception as e:
@@ -102,9 +124,39 @@ def get_data_with_id_and_timerange(observation_id, begin_position, end_position)
     except Exception as e:
         print(str(e))
 
+def get_data_with_id_and_begin(observation_id, begin_position):
+    try: 
+        url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier{observation_id}&beginPosition={begin_position}&includeData=true&limit=1' 
+        resp = requests.get(url)
+        data = json.loads(resp.text)
+        with open(f'{begin_position}_begin_.json', 'w') as f:
+            json.dump(data, f)     
+        print(data)
+        return data
+    except Exception as e:
+        print(str(e))
+
+def get_data_with_id_and_end(observation_id, end_position):
+    try: 
+        url = f'https://whos.geodab.eu/gs-service/services/essi/token/{TOKEN}/view/whos-emodnet/om-api/observations?observationIdentifier{observation_id}&endPosition={end_position}&includeData=true&limit=1' 
+        resp = requests.get(url)
+        data = json.loads(resp.text)
+        with open(f'{end_position}_end_.json', 'w') as f:
+            json.dump(data, f)    
+        print(data)
+        return data
+    except Exception as e:
+        print(str(e))
+
 # print(get_metadata_with_ob_id('1853D77030E9D16A907D794578C0CA8DD85E9A58'))
 # print(get_ids_timestamps())
 # get_data_with_id('1853D77030E9D16A907D794578C0CA8DD85E9A58')
-# get_data_with_id_and_timerange('1853D77030E9D16A907D794578C0CA8DD85E9A58','2024-01-28T19:00:00Z','2024-01-30T00:00:00Z')
 
-features()
+get_metadata_with_timerange('2024-01-15T19:00:00Z','2024-01-30T00:00:00Z')
+        
+# get_data_with_id('1853D77030E9D16A907D794578C0CA8DD85E9A58')
+# get_data_with_id_and_timerange('1853D77030E9D16A907D794578C0CA8DD85E9A58','2024-01-28T19:00:00Z','2024-01-30T00:00:00Z') # working
+get_data_with_id_and_begin('1853D77030E9D16A907D794578C0CA8DD85E9A58', '2024-02-28T16:36:17Z')
+get_data_with_id_and_end('1853D77030E9D16A907D794578C0CA8DD85E9A58', '2023-08-22T07:00:00Z')
+
+# features()
